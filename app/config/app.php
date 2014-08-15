@@ -79,6 +79,10 @@ return array(
 	*/
 
 	'key' => 'YCKEo0x63qL5Cs6upCiFmGC4CdOHYtIC',
+/* To create the above key from terminal,
+ * first go to the terminal.
+ * Then in your project folder, write: php artisan key: generate
+ * This will automatically generate a key on behalf of you. */
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
