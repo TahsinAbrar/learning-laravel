@@ -51,6 +51,9 @@ return array(
 			'database' => __DIR__.'/../database/production.sqlite',
 			'prefix'   => '',
 		),
+        /* To configure database for your project,
+         * in 'database' field, write your database name
+         * Also specify the username and password */
 
 		'mysql' => array(
 			'driver'    => 'mysql',
